@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('5fe62d64fee91c7edb0cce32ff5dd63c.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+width: 420px;
+background: transparent;
+color: rgb(0, 0, 0);
+border:2px solid rgba(0, 0, 0, 0.2);
+backdrop-filter:blur(2px) ;
+box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+border-radius: 14px;
+padding: 60px 40px;
+}
+
+.wrapper h1 {
+font-size: 40px;
+text-align: center;
+color:rgb(0, 0, 0);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper .input-box {
+    position:relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background:transparent ;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 18px;
+    color: #009cfd;
+    padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder {
+color: rgb(0, 0, 0)    ;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 -15px;
+}
+
+.remember-forgot label input {
+    accent-color: #000000;
+    margin-right: 3px;
+}
+.remember-forgot a {
+    color:#009cfd;
+    text-decoration: none;   
+    
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .bnt {
+    width: 95%;
+    height: 45px;
+    background:#ffffff ;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #009cfd;
+    text-decoration:none ;
+    font-weight: 600 ;
+}
+
+.register-link p a:hover {
+text-decoration: underline;
+}
+
+.cor {
+    color: #009cfd;
+}
